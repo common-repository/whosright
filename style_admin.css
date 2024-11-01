@@ -1,0 +1,236 @@
+#wr_ap { text-align: left; }
+/*#normal-sortables { display: none; } */
+		
+#wr_ap .rounded_1 {
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	-khtml-border-radius: 1px;
+}
+#wr_ap .rounded_2 {
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-khtml-border-radius: 2px;
+}
+#wr_ap .rounded_3 {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+}
+#wr_ap .rounded_4 {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+}
+#wr_ap .rounded_5 {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+}
+
+#wr_ap .addpoll_container {
+	padding: 10px;
+}
+
+#wr_ap .addpoll_container hr {
+	border: 1px solid rgb(235, 235, 235);
+	margin-right: -10px;
+}
+
+#wr_ap input[type=text], #wr_ap input[type=password], #wr_ap textarea, #wr_ap select {
+	border: 1px solid rgb(172, 172, 172);
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	resize: none;
+	padding: 5px;
+}
+#wr_ap .addpoll_container textarea {
+	width: 100%;
+}
+
+#wr_ap .addpoll_container select {
+	padding: 3px;
+	height: 2.5em;
+}
+
+#wr_ap .addpoll_container input[type=text] {
+	width: 100%;
+}
+
+#wr_ap .addpoll_container input[type=button] {
+	border: none;
+	background-color: rgb(234, 234, 234);
+	padding: 5px;
+	color: rgb(101, 101, 101);
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-weight: bold;
+	cursor: pointer;
+}
+#wr_ap .addpoll_container input[type=button].cancel_button {
+	background-color: rgb(103, 107, 111);
+	color: white;
+	float: right;
+}
+#wr_ap .addpoll_container input[type=button].submit_button {
+	background-color: rgb(151, 222, 255);
+	float: right;
+	margin-left: 5px;
+	margin-right: -10px;
+}
+#wr_ap .addpoll_container input.attach_button { 
+	margin-left: 10px; 
+	width: 140px;
+}
+#wr_ap .addpoll_container input.delete_button {
+	width: 115px;
+}
+
+#wr_ap .media_preview {
+	width: 300px;
+}
+#wr_ap .media_preview .video_preview {
+	width: 300px;
+	height: 200px;
+	margin-bottom: 5px;
+}
+
+
+#fadeout {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 5;
+	background-color: black;
+	display: none;
+}
+
+
+#attach {
+	position: fixed;
+	left: 35%;
+	top: 100px;
+	width: 310px;
+	z-index: 6;
+	display: none;
+}
+
+#attach .attach_video_content, #attach .attach_photo_content {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-top: 1px solid rgb(240, 240, 240);
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-top-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	-moz-border-radius-topright: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	z-index: 7;
+	position: relative;
+	margin-top: 5px;
+	padding: 10px;
+	text-align: left;
+}
+
+#attach .attach_tabs {
+	width: 100%;
+	height: 27px;
+	text-align: left;
+}
+#attach .attach_tabs .tab {
+	width: 103px;
+	height: 32px;
+	cursor: pointer;
+	display: inline-block;
+	position: absolute;
+}
+#attach .attach_tabs .tab_attach_video {
+	margin-left: 0px;
+	width: 138px;
+}
+#attach .attach_tabs .tab_attach_photo {
+	left: 135px;
+	width: 140px;
+}
+
+#attach .tab_content  label { 
+	display: block;
+	font-size: 14px;
+}
+#attach .tab_content  input[type=text],
+#attach .tab_content  input[type=password] {
+	width: 96%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+
+#attach .attach_video_content {
+	background-color: #f7f8f9;
+}
+
+#attach .button {
+	background-color: #6f6f6f;
+	color: white;
+}
+#attach .cancel_button {
+	position: absolute;
+	bottom: 10px;
+	left: 5px;
+}
+#attach .remove_button {
+	position: absolute;
+	bottom: 10px;
+	left: 100px;
+}
+
+#attach .attach_photo_content {
+	border-top: none;
+	background-color: #3abdf9;
+}
+#attach .attach_photo_content, #attach .attach_photo_content p {
+	color: rgb(22, 69, 92);
+	margin: 0px;
+	font-weight: bold;
+}
+
+#attach .photo_preview {
+	width: 100%; 
+	height: 240px; 
+	background-color: #f0faff;
+	overflow: hidden;
+}
+#attach .video_preview {
+	width: 100%; 
+	height: 240px; 
+	background-color: #cccccd;
+	overflow: hidden;
+}
+#attach span {
+	display: inline-block;
+	width: 100%;
+	text-align: right;
+}
+
+
+#attach .button {
+	padding: 5px;
+	background-color: rgb(165, 165, 165);
+	color: white;
+	border: none;
+	font-weight: bold;
+	margin-top: 3px;
+	cursor: pointer;
+	line-height: normal;
+	background-image: none;
+}
+
